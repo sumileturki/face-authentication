@@ -11,7 +11,7 @@ function Login() {
   const [faceApiLoaded, setFaceApiLoaded] = useState(false);
   const [loginResult, setLoginResult] = useState("PENDING");
   const [imageError, setImageError] = useState(false);
-  const [counter, setCounter] = useState(5);
+  const [counter, setCounter] = useState(3);
   const [labeledFaceDescriptors, setLabeledFaceDescriptors] = useState({});
   const videoRef = useRef();
   const canvasRef = useRef();
