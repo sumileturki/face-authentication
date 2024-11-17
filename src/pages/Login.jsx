@@ -72,7 +72,7 @@ function Login() {
 
       return () => clearInterval(counterInterval);
     }
-    setCounter(5);
+    setCounter(2);
   }, [loginResult, counter]);
 
   const getLocalUserVideo = async () => {
