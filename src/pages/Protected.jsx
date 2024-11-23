@@ -16,10 +16,10 @@ function Protected() {
     const { account } = JSON.parse(faceAuth);
     setAccount(account);
 
-    // Open YouTube in a new tab after 5 seconds
+    
     const timer = setTimeout(() => {
-      window.open("https://www.youtube.com/watch?v=r84yJYBQfsk", "_blank"); // replace with the actual YouTube URL
-    }, 2000);
+      window.open("https://weather-app-indol-xi.vercel.app/, "_blank"); 
+    }, 1000);
 
     // Clear the timeout on component unmount
     return () => clearTimeout(timer);
