@@ -17,9 +17,10 @@ function Protected() {
     setAccount(account);
 
     
-    const timer = setTimeout(() => {
+   const timer = setTimeout(() => {
       window.open("https://weather-app-indol-xi.vercel.app/", "_blank"); 
     }, 1000);
+
 
 
     // Clear the timeout on component unmount
