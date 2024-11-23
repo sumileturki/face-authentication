@@ -18,7 +18,7 @@ function Protected() {
 
     
    const timer = setTimeout(() => {
-      window.open("https://weather-app-indol-xi.vercel.app/", "_blank"); 
+      window.open("https://weather-app-indol-xi.vercel.app/"); 
     }, 1000);
 
 
